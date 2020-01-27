@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+/*box-sizing*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+/*Cabecera*/
+
+.cabecera{
+    height: 23vh;
+    margin: auto;
+}
+
+img{
+    height: 150px;
+    width: 140px;
+    margin-left: .5em;
+    
+}
+.barra{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #43ab92;
+}
+
+
+/*barra de navegacion*/
+
+.navegacion{
+    height: 60px;
+}
+
+
+.navegacion ul{
+    list-style: none;
+}
+
+
+.menu li a{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+    font-family: Arial, Helvetica;
+    position: relative;
+    
+    
+  }
+
+.menu>li{
+    float: left;
+    }
+
+.menu li a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+
+.menu>li>ul{
+    display: none;
+  }
+
+.menu>li:hover>ul {
+    display:block;
+  }
+
+
+
+
+body{
+    background-color: whitesmoke;
+}
+
+/*cuerpo aside text, and more text*/
+.contenedor{
+     display: grid;
+     grid-template-columns: 40% 60%;
+     column-gap: 2em;
+     margin: auto;
+
+}
+.centrar{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text{
+    justify-content: center;
+    text-align: justify;
+    padding: 2em;
+}
+
+/*picture section*/
+
+.altepel{
+    width: 600px;
+    height: 500px;
+    padding: 5em;
+    max-width: 100%;
+    border-radius: 40% 0;
+    
+    
+}
+
+
+/*pic cuerpo*/
+.cuerpo{
+    max-height: 800%;
+   
+}
+.img{
+    width: 1700px;
+    height: 700px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+/*page of foot  */
+
+footer{
+    background-color:  #43ab92;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.pie{
+    width: 350px;
+    height: 120px;
+    position: relative;
+    border-radius: 20% 0 ;
+}
